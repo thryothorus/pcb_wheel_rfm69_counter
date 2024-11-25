@@ -5,7 +5,7 @@
 - Create a wireless, battery powered, sensing network for additional sensors in the future
 
 ## Features
-- NFC antenna for quick reading/changing of metadata (i.e. what's the animal name)
+- NFC antenna for quick reading/changing of metadata (i.e. setting the animal name for transmission)
 - RTC (Real Time Clock)
 - N-MOSFET polarity protection
 - Several debug switches
