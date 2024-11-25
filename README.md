@@ -21,6 +21,7 @@
 - Populating PCB
 - Writing code
 
+## License: GPL.
 
 ## Resources
 NFC antenna design taken from [Sparkfun's implementation](https://www.sparkfun.com/products/21274)
