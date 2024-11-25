@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "$(SYSTEMLIBRARY)RFM69HCW/footprints.pretty")(options "")(descr ""))
+  (lib (name "ATMEGA328PB-ANR")(type "KiCad")(uri "$(SYSTEMLIBRARY)ATMEGA328PB-ANR")(options "")(descr ""))
+  (lib (name "MAX31329ELB+")(type "KiCad")(uri "$(SYSTEMLIBRARY)MAX31329ELB+")(options "")(descr ""))
+  (lib (name "ishan")(type "KiCad")(uri "$(SYSTEMLIBRARY)ishan.pretty")(options "")(descr ""))
+)
