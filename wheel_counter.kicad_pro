@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6096,
-          "width": 0.6096
+          "height": 1.4,
+          "width": 1.15
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -534,7 +534,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "/home/thebears/Seafile/Designs/KiCad/projects/wheel_counter/wheel_rfm69_counter/fix_to_rev_1/all.svg",
       "vrml": ""
     },
     "page_layout_descr_file": ""
