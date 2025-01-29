@@ -3,8 +3,6 @@
 int8_t rssi;
 uint8_t i;
 uint8_t len_payload;
-tx_rx_data_struct tx_rx_data;
-tx_rx_data_struct rfm69_rx_data;
 uint32_t msg_hash;
 uint8_t p_hash_1;
 uint8_t p_hash_2;
@@ -32,25 +30,25 @@ DATA_SEND_STATUS send_message(tx_rx_data_struct tx_data)
     for (uint8_t i = 0; i < 10; i++) {
         bool result = wait_rx_payload_ready_timeout(250);
         if (result) {
-//            uart_sendString("MESSAGE RECV\r\n");
-            rfm69_rx_data = rfm69_read_msg();
-//            uart_print_tx_rx_data(rfm69_rx_data);
-            c_hash_1 = rfm69_rx_data.msg[0];
-            c_hash_2 = rfm69_rx_data.msg[1];
-            c_hash_3 = rfm69_rx_data.msg[2];
+            RX_DATA = rfm69_read_msg();
+#if DO_UART
+            uart_sendString("Message received\n");
+            uart_print_tx_rx_data(RX_DATA);
+#endif
+            c_hash_1 = RX_DATA.msg[0];
+            c_hash_2 = RX_DATA.msg[1];
+            c_hash_3 = RX_DATA.msg[2];
 
             cond_1 = (p_hash_1 == c_hash_1) && (p_hash_2 == c_hash_2) && (p_hash_3 == c_hash_3);
-            cond_2 = (tx_data.from == rfm69_rx_data.to) && (tx_data.to == rfm69_rx_data.from);
+            cond_2 = (tx_data.from == RX_DATA.to) && (tx_data.to == RX_DATA.from);
             cond_3 = cond_1 && cond_2;
-            
-            if (cond_3 && (rfm69_rx_data.flags == MSG_RECV_COUNTS_SUCCESS)
-                && (rfm69_rx_data.msg[3] == 0xFF)) {
+
+            if (cond_3 && (RX_DATA.flags == MSG_RECV_COUNTS_SUCCESS) && (RX_DATA.msg[3] == 0xFF)) {
                 return DATA_SEND_SUCCESS;
                 break;
             } else if (
-                cond_3 && (rfm69_rx_data.flags == MSG_RECV_COUNTS_FAIL)
-                && (rfm69_rx_data.msg[3] == 0x00)) {
-                
+                cond_3 && (RX_DATA.flags == MSG_RECV_COUNTS_FAIL) && (RX_DATA.msg[3] == 0x00)) {
+
             } else {
             }
 
@@ -63,14 +61,20 @@ DATA_SEND_STATUS send_message(tx_rx_data_struct tx_data)
 void uart_print_tx_rx_data(tx_rx_data_struct tx_rx_print)
 {
 
-    uart_print_uint8(tx_rx_print.len, "LENGTH");
-    uart_print_uint8(tx_rx_print.to, "TO");
-    uart_print_uint8(tx_rx_print.from, "FROM");
-    uart_print_uint8(tx_rx_print.dtype, "DTYPE");
-    uart_print_uint8(tx_rx_print.flags, "FLAGS");
-    //       uart_sendStringArray(tx_rx_print.msg, tx_rx_print.len);
-    uart_print_uint8_array(tx_rx_print.msg, tx_rx_print.len, "AS NUMBER");
-    //       uart_sendString("\r\n");
+    // uart_print_uint8(tx_rx_print.len, "LEN; ");
+    // uart_print_uint8(tx_rx_print.to, "TO;");
+    // uart_print_uint8(tx_rx_print.from, "FROM;");
+    // uart_print_uint8(tx_rx_print.dtype, "DTYPE;");
+    // uart_print_uint8(tx_rx_print.flags, "FLAGS;");
+    DATA_BUFFER_7[0] = tx_rx_print.len;
+    DATA_BUFFER_7[1] = tx_rx_print.to;
+    DATA_BUFFER_7[2] = tx_rx_print.from;
+    DATA_BUFFER_7[3] = tx_rx_print.dtype;
+    DATA_BUFFER_7[4] = tx_rx_print.flags;
+    uart_print_uint8_array(DATA_BUFFER_7, 5, "LEN,TO,FROM,DTYPE,FLAGS\n");
+    uart_sendStringArray(tx_rx_print.msg, tx_rx_print.len);
+    uart_sendChar('\n');
+    uart_print_uint8_array(tx_rx_print.msg, tx_rx_print.len, "\n");
 }
 
 void rfm69_write_msg(tx_rx_data_struct txrxd)
@@ -99,24 +103,24 @@ void rfm69_write_msg(tx_rx_data_struct txrxd)
 
 tx_rx_data_struct rfm69_read_msg()
 {
-    memset(tx_rx_data.msg, ' ', sizeof(tx_rx_data.msg));
+    memset(RX_DATA.msg, ' ', sizeof(RX_DATA.msg));
     spi_rfm69_select(true);
     spi_write(REG_FIFO);
 
-    tx_rx_data.len = spi_read() - 4;
-    tx_rx_data.to = spi_read();
-    tx_rx_data.from = spi_read();
-    tx_rx_data.dtype = spi_read();
-    tx_rx_data.flags = spi_read();
-    uint8_t len_f = tx_rx_data.len;
+    RX_DATA.len = spi_read() - 4;
+    RX_DATA.to = spi_read();
+    RX_DATA.from = spi_read();
+    RX_DATA.dtype = spi_read();
+    RX_DATA.flags = spi_read();
+    uint8_t len_f = RX_DATA.len;
 
     for (uint8_t idx_f = 0; idx_f < len_f; idx_f++) {
-        tx_rx_data.msg[idx_f] = spi_read();
+        RX_DATA.msg[idx_f] = spi_read();
     }
     spi_rfm69_select(false);
     set_rfm69_idle();
 
-    return tx_rx_data;
+    return RX_DATA;
 }
 
 void rfm69_set_state(bool state)
@@ -173,38 +177,38 @@ tx_rx_data_struct generate_wheel_counts_message(
     identifier_results idd, time_struct time, uint16_t battery_value, volatile uint16_t counts[15])
 {
 
-    reset_txrx_struct(&tx_rx_data);
-    memcpy(tx_rx_data.msg, idd.name_str, MIN(10, idd.name_len));
-    memcpy(tx_rx_data.msg + 10, idd.diameter_str, MIN(10, idd.diameter_len));
+    reset_txrx_struct(&TX_DATA);
+    memcpy(TX_DATA.msg, idd.name_str, MIN(10, idd.name_len));
+    memcpy(TX_DATA.msg + 10, idd.diameter_str, MIN(10, idd.diameter_len));
 
-    tx_rx_data.msg[20] = battery_value & 0xFF;
-    tx_rx_data.msg[21] = (battery_value >> 8) & 0xFF;
+    TX_DATA.msg[20] = battery_value & 0xFF;
+    TX_DATA.msg[21] = (battery_value >> 8) & 0xFF;
 
-    tx_rx_data.msg[22] = time.Minute;
-    tx_rx_data.msg[23] = time.Hour;
-    tx_rx_data.msg[24] = time.Day;
-    tx_rx_data.msg[25] = time.Month;
-    tx_rx_data.msg[26] = time.Year;
+    TX_DATA.msg[22] = time.Minute;
+    TX_DATA.msg[23] = time.Hour;
+    TX_DATA.msg[24] = time.Day;
+    TX_DATA.msg[25] = time.Month;
+    TX_DATA.msg[26] = time.Year;
 
     for (uint8_t idx = 0; idx < 15; idx++) {
-        tx_rx_data.msg[26 + (2 * idx + 1)] = counts[idx] & 0xFF; // LSB first
-        tx_rx_data.msg[26 + (2 * idx + 2)] = (counts[idx] >> 8) & 0xFF; // MSB second
+        TX_DATA.msg[26 + (2 * idx + 1)] = counts[idx] & 0xFF; // LSB first
+        TX_DATA.msg[26 + (2 * idx + 2)] = (counts[idx] >> 8) & 0xFF; // MSB second
     }
 
-    msg_hash = hash_3bytes(tx_rx_data.msg, 57);
-    tx_rx_data.msg[57] = msg_hash & 0xFF;
-    tx_rx_data.msg[58] = (msg_hash >> 8) & 0xFF;
-    tx_rx_data.msg[59] = (msg_hash >> 16) & 0xFF;
+    msg_hash = hash_3bytes(TX_DATA.msg, 57);
+    TX_DATA.msg[57] = msg_hash & 0xFF;
+    TX_DATA.msg[58] = (msg_hash >> 8) & 0xFF;
+    TX_DATA.msg[59] = (msg_hash >> 16) & 0xFF;
 
-    tx_rx_data.len = sizeof(tx_rx_data.msg);
-    tx_rx_data.flags = MSG_SEND_COUNTS;
-    tx_rx_data.from = idd.hashed;
-    tx_rx_data.to = 255;
-    tx_rx_data.dtype = MSG_TYPE_BINARY;
-    return tx_rx_data;
+    TX_DATA.len = sizeof(TX_DATA.msg);
+    TX_DATA.flags = MSG_SEND_COUNTS;
+    TX_DATA.from = idd.hashed;
+    TX_DATA.to = 255;
+    TX_DATA.dtype = MSG_TYPE_BINARY;
+    return TX_DATA;
 }
 
-uint32_t hash_3bytes(const char* str, uint8_t str_len)
+uint32_t hash_3bytes(unsigned const char* str, uint8_t str_len)
 {
     uint32_t hash = 0;
 

@@ -7,7 +7,10 @@
         "*.ipp": "c",
         "chrono": "c",
         "functional": "c",
-        "__locale": "c"
+        "__locale": "c",
+        "random": "cpp",
+        "algorithm": "cpp",
+        "max31329.h": "c"
     },
     "cmake.sourceDirectory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/cmake/radio_wheel_counter/default"
 }

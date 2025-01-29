@@ -1,56 +1,45 @@
 #include "st25dv.h"
 
-trimmed_string_struct trimmed_string;
-identifier_results id_result;
-trimmed_string_struct string_trim_result;
-
 identifier_results get_nugget_data()
 {
-    ndef_message rfid_msg = rfid_read_first_ndef_entry();
-
-    uart_sendString(rfid_msg.payload);
-    uart_sendString("\r\n");
-    
-    string_trim_result = remove_spaces(rfid_msg.payload, rfid_msg.payload_len);
-    uart_sendString(string_trim_result.str);
-    uart_sendString("\r\n");
-    char* delim_ptr = strchr(string_trim_result.str, ',');
+    NDEF_MSG = rfid_read_first_ndef_entry();
+    TRIMMED_STRING = remove_spaces(NDEF_MSG.payload, NDEF_MSG.payload_len);
+    char* delim_ptr = strchr(TRIMMED_STRING.str, ',');
     if (delim_ptr != NULL) {
-        uint8_t index_comma = delim_ptr - string_trim_result.str;
-        memcpy(id_result.name_str, string_trim_result.str, index_comma);
+        uint8_t index_comma = delim_ptr - TRIMMED_STRING.str;
+        memcpy(IDENTIFIER.name_str, TRIMMED_STRING.str, index_comma);
         memcpy(
-            id_result.diameter_str, string_trim_result.str + index_comma + 1,
-            string_trim_result.length);
-        id_result.name_len = index_comma;
-        id_result.diameter_len = string_trim_result.length - index_comma;
+            IDENTIFIER.diameter_str, TRIMMED_STRING.str + index_comma + 1, TRIMMED_STRING.length);
+        IDENTIFIER.name_len = index_comma;
+        IDENTIFIER.diameter_len = TRIMMED_STRING.length - index_comma;
     } else {
-        memcpy(id_result.name_str, string_trim_result.str, string_trim_result.length);
-        id_result.name_len = string_trim_result.length;
-        memcpy(id_result.diameter_str, "N/A", 3);
-        id_result.diameter_len = 3;
+        memcpy(IDENTIFIER.name_str, TRIMMED_STRING.str, TRIMMED_STRING.length);
+        IDENTIFIER.name_len = TRIMMED_STRING.length;
+        memcpy(IDENTIFIER.diameter_str, "N/A", 3);
+        IDENTIFIER.diameter_len = 3;
     }
-    
-    id_result.hashed = hash(id_result.name_str, 0, 59);
 
-    return id_result;
+    IDENTIFIER.hashed = hash(IDENTIFIER.name_str, 0, 59);
+
+    return IDENTIFIER;
 }
 
 trimmed_string_struct remove_spaces(char* str, uint8_t len_str)
 {
     uint8_t i = 0, j = 0;
-    memset(trimmed_string.str,' ',20);
+    memset(TRIMMED_STRING.str, ' ', 20);
     while (str[i]) {
         if (str[i] != ' ') {
-            trimmed_string.str[j++] = str[i];
+            TRIMMED_STRING.str[j++] = str[i];
         }
         i++;
         if (i >= len_str) {
             break;
         }
     }
-    
-    trimmed_string.length = j;
-    return trimmed_string;
+
+    TRIMMED_STRING.length = j;
+    return TRIMMED_STRING;
 }
 
 void rfid_set_low_power_down(bool state)
@@ -68,18 +57,17 @@ ndef_message rfid_read_first_ndef_entry()
     rfid_set_low_power_down(false);
     rfid_set_i2c_power(true);
     _delay_ms(10);
-    uint8_t mem_data[254];
-    rfid_read_memory(mem_data, 254, 0x0000 + 4);
-    ndef_message the_msg = readNDEFText(mem_data);
+    memset(DATA_BUFFER_254, 0, 254);
+    rfid_read_memory(DATA_BUFFER_254, 254, 0x0000 + 4);
+    NDEF_MSG = readNDEFText(DATA_BUFFER_254);
     rfid_set_low_power_down(true);
-    return the_msg;
     rfid_set_i2c_power(false);
+    return NDEF_MSG;
 }
 
 uint8_t rfid_read_system_register()
 {
     return read_one_byte_16bit_addr_no_err_register(I2C_SYSTEM_ADDR, 0x0000);
-    //    0xAE
 }
 
 void rfid_set_i2c_power(bool state)
@@ -95,6 +83,5 @@ void rfid_set_i2c_power(bool state)
 
 uint8_t rfid_read_memory(uint8_t* data, uint8_t num_bytes, uint16_t address)
 {
-
     return read_n_bytes_16bit_addr(I2C_USER_ADDR, address, data, num_bytes);
 }

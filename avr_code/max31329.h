@@ -25,11 +25,6 @@ extern "C" {
 #define tmYearToY2k(Y) ((Y) - 30) // offset is from 2000
 #define y2kYearToTm(Y) ((Y) + 30)
 
-
-
-extern uint8_t data[7];
-extern time_struct time_data;
-
 uint8_t rtc_enable_interrupts();
 uint8_t rtc_set_per_minute_alarm();
 uint8_t rtc_read_time_array(uint8_t* data);

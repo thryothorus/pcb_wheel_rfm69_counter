@@ -8,8 +8,8 @@ build/default/production/rfm69.o.d build/default/production/rfm69.o: \
  /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/include/avr/iom328pb.h \
  /usr/avr/include/avr/portpins.h /usr/avr/include/avr/common.h \
  /usr/avr/include/avr/version.h /usr/avr/include/avr/fuse.h \
- /usr/avr/include/avr/lock.h states.h /usr/avr/include/string.h \
- /usr/avr/include/util/delay.h /usr/avr/include/util/delay_basic.h uart.h
+ /usr/avr/include/avr/lock.h states.h uart.h /usr/avr/include/string.h \
+ /usr/avr/include/util/delay.h /usr/avr/include/util/delay_basic.h
 rfm69.h:
 defines.h:
 /usr/lib/gcc/avr/14.1.0/include/stdint.h:
@@ -30,7 +30,7 @@ spi.h:
 /usr/avr/include/avr/fuse.h:
 /usr/avr/include/avr/lock.h:
 states.h:
+uart.h:
 /usr/avr/include/string.h:
 /usr/avr/include/util/delay.h:
 /usr/avr/include/util/delay_basic.h:
-uart.h:

@@ -10,10 +10,10 @@ build/default/production/main.o.d build/default/production/main.o: main.c \
  /usr/lib/gcc/avr/14.1.0/include/stddef.h /usr/avr/include/stdio.h \
  /usr/lib/gcc/avr/14.1.0/include/stdarg.h interrupts.h \
  /usr/avr/include/avr/interrupt.h /usr/avr/include/avr/sleep.h \
- /usr/avr/include/avr/wdt.h states.h m95128.h rfm69.h spi.h \
+ /usr/avr/include/avr/wdt.h states.h m95128.h rfm69.h spi.h uart.h \
  /usr/avr/include/string.h /usr/avr/include/util/delay.h \
- /usr/avr/include/util/delay_basic.h uart.h max31329.h i2c.h st25dv.h \
- ndef.h power_mgmt.h /usr/avr/include/avr/power.h
+ /usr/avr/include/util/delay_basic.h max31329.h i2c.h st25dv.h ndef.h \
+ power_mgmt.h /usr/avr/include/avr/power.h
 adc.h:
 /usr/avr/include/avr/io.h:
 /usr/avr/include/avr/sfr_defs.h:
@@ -40,10 +40,10 @@ states.h:
 m95128.h:
 rfm69.h:
 spi.h:
+uart.h:
 /usr/avr/include/string.h:
 /usr/avr/include/util/delay.h:
 /usr/avr/include/util/delay_basic.h:
-uart.h:
 max31329.h:
 i2c.h:
 st25dv.h:

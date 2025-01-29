@@ -33,15 +33,15 @@ w
 
     void
     spi_eeprom_select(bool state);
-void eeprom_write(uint8_t page, char* msg, uint8_t msg_len);
-void eeprom_read(uint8_t page, char* msg, uint8_t msg_len);
+void eeprom_write(uint8_t page, unsigned const char* msg, uint8_t msg_len);
+void eeprom_read(uint8_t page, unsigned char* msg, uint8_t msg_len);
 void eeprom_write_tx_data(uint8_t page, tx_rx_data_struct tx_data);
 void write_page_address(uint8_t page);
 uint8_t get_last_page();
 tx_rx_data_struct eeprom_read_tx_data(uint8_t page);
 void delete_last_page();
 uint8_t get_last_page();
-uint8_t write_last_page_value(uint8_t page);
+void write_last_page_value(uint8_t page);
 void eeprom_clear_page(uint8_t page);
 void write_page_address(uint8_t page);
 void eeprom_write_tx_data(uint8_t page, tx_rx_data_struct tx_data);

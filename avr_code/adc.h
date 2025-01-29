@@ -14,16 +14,15 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-typedef uint16_t adc_result_t;
-typedef uint8_t adc_0_channel_t;
+
 
 int8_t adc_Initialize();
 void adc_Enable();
 void adc_Disable();
-void adc_StartConversion(adc_0_channel_t channel);
+void adc_StartConversion(uint8_t channel);
 bool adc_IsConversionDone();
-adc_result_t adc_GetConversionResult(void);
-adc_result_t adc_GetConversion(adc_0_channel_t channel);
+uint16_t adc_GetConversionResult(void);
+uint16_t adc_GetConversion(uint8_t channel);
 
 #ifdef	__cplusplus
 }

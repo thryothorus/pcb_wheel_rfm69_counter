@@ -8,9 +8,9 @@ build/default/production/max31329.o.d build/default/production/max31329.o: \
  /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/include/avr/iom328pb.h \
  /usr/avr/include/avr/portpins.h /usr/avr/include/avr/common.h \
  /usr/avr/include/avr/version.h /usr/avr/include/avr/fuse.h \
- /usr/avr/include/avr/lock.h rfm69.h spi.h states.h \
+ /usr/avr/include/avr/lock.h rfm69.h spi.h states.h uart.h \
  /usr/avr/include/string.h /usr/avr/include/util/delay.h \
- /usr/avr/include/util/delay_basic.h uart.h st25dv.h ndef.h
+ /usr/avr/include/util/delay_basic.h st25dv.h ndef.h
 max31329.h:
 defines.h:
 /usr/lib/gcc/avr/14.1.0/include/stdint.h:
@@ -33,9 +33,9 @@ i2c.h:
 rfm69.h:
 spi.h:
 states.h:
+uart.h:
 /usr/avr/include/string.h:
 /usr/avr/include/util/delay.h:
 /usr/avr/include/util/delay_basic.h:
-uart.h:
 st25dv.h:
 ndef.h:

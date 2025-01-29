@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=uart.c rfm69.c states.c i2c.c m95128.c spi.c st25dv.c interrupts.c max31329.c power_mgmt.c adc.c ndef.c main.c
+SOURCEFILES_QUOTED_IF_SPACED=uart.c rfm69.c states.c i2c.c m95128.c spi.c st25dv.c interrupts.c max31329.c power_mgmt.c adc.c ndef.c main.c defines.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/uart.o ${OBJECTDIR}/rfm69.o ${OBJECTDIR}/states.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/m95128.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/st25dv.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/max31329.o ${OBJECTDIR}/power_mgmt.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/ndef.o ${OBJECTDIR}/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/uart.o.d ${OBJECTDIR}/rfm69.o.d ${OBJECTDIR}/states.o.d ${OBJECTDIR}/i2c.o.d ${OBJECTDIR}/m95128.o.d ${OBJECTDIR}/spi.o.d ${OBJECTDIR}/st25dv.o.d ${OBJECTDIR}/interrupts.o.d ${OBJECTDIR}/max31329.o.d ${OBJECTDIR}/power_mgmt.o.d ${OBJECTDIR}/adc.o.d ${OBJECTDIR}/ndef.o.d ${OBJECTDIR}/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/uart.o ${OBJECTDIR}/rfm69.o ${OBJECTDIR}/states.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/m95128.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/st25dv.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/max31329.o ${OBJECTDIR}/power_mgmt.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/ndef.o ${OBJECTDIR}/main.o ${OBJECTDIR}/defines.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/uart.o.d ${OBJECTDIR}/rfm69.o.d ${OBJECTDIR}/states.o.d ${OBJECTDIR}/i2c.o.d ${OBJECTDIR}/m95128.o.d ${OBJECTDIR}/spi.o.d ${OBJECTDIR}/st25dv.o.d ${OBJECTDIR}/interrupts.o.d ${OBJECTDIR}/max31329.o.d ${OBJECTDIR}/power_mgmt.o.d ${OBJECTDIR}/adc.o.d ${OBJECTDIR}/ndef.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/defines.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/uart.o ${OBJECTDIR}/rfm69.o ${OBJECTDIR}/states.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/m95128.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/st25dv.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/max31329.o ${OBJECTDIR}/power_mgmt.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/ndef.o ${OBJECTDIR}/main.o
+OBJECTFILES=${OBJECTDIR}/uart.o ${OBJECTDIR}/rfm69.o ${OBJECTDIR}/states.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/m95128.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/st25dv.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/max31329.o ${OBJECTDIR}/power_mgmt.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/ndef.o ${OBJECTDIR}/main.o ${OBJECTDIR}/defines.o
 
 # Source Files
-SOURCEFILES=uart.c rfm69.c states.c i2c.c m95128.c spi.c st25dv.c interrupts.c max31329.c power_mgmt.c adc.c ndef.c main.c
+SOURCEFILES=uart.c rfm69.c states.c i2c.c m95128.c spi.c st25dv.c interrupts.c max31329.c power_mgmt.c adc.c ndef.c main.c defines.c
 
 # Pack Options 
 PACK_COMPILER_OPTIONS=-I "${DFP_DIR}/include"
@@ -182,6 +182,12 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/97ef2eba5631977dd005
 	@${RM} ${OBJECTDIR}/main.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega328pb ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o  -o ${OBJECTDIR}/main.o main.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
+${OBJECTDIR}/defines.o: defines.c  .generated_files/flags/default/f1d409d8769607bf30e7a803b35da4b781cb824 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/defines.o.d 
+	@${RM} ${OBJECTDIR}/defines.o 
+	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega328pb ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/defines.o.d" -MT "${OBJECTDIR}/defines.o.d" -MT ${OBJECTDIR}/defines.o  -o ${OBJECTDIR}/defines.o defines.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	
 else
 ${OBJECTDIR}/uart.o: uart.c  .generated_files/flags/default/70124900b376e0f2b64974c67225ec9813a6f146 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}" 
@@ -260,6 +266,12 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/ce30b016f919bd5068c1
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega328pb ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o  -o ${OBJECTDIR}/main.o main.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	
+${OBJECTDIR}/defines.o: defines.c  .generated_files/flags/default/fbf3e8d04a69bbd24b54d5cee7326db97246cad9 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/defines.o.d 
+	@${RM} ${OBJECTDIR}/defines.o 
+	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega328pb ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/defines.o.d" -MT "${OBJECTDIR}/defines.o.d" -MT ${OBJECTDIR}/defines.o  -o ${OBJECTDIR}/defines.o defines.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 endif
 

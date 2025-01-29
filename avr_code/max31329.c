@@ -1,156 +1,91 @@
 #include "max31329.h"
-
-uint8_t data[7];
-time_struct time_data;
-tx_rx_data_struct tx_rtc_data;
-tx_rx_data_struct rx_rtc_data;
+bool result;
 
 RTC_RFM69_STATUS set_time_from_rfm69(identifier_results id_data)
 {
-    time_struct td; 
-   
-    reset_txrx_struct(&tx_rtc_data);
-    memcpy(tx_rtc_data.msg, id_data.name_str, MIN(10, id_data.name_len));
-    memcpy(tx_rtc_data.msg + 10, id_data.diameter_str, MIN(10, id_data.diameter_len));
-    tx_rtc_data.len = 20;
-    tx_rtc_data.flags = MSG_REQ_CTIME;
-    tx_rtc_data.dtype = MSG_TYPE_STRING;
+    rfm69_init();
+    _delay_ms(1);
 
-    rfm69_write_msg(tx_rtc_data);
+    reset_txrx_struct(&TX_DATA);
+    memcpy(TX_DATA.msg, id_data.name_str, MIN(10, id_data.name_len));
+    memcpy(TX_DATA.msg + 10, id_data.diameter_str, MIN(10, id_data.diameter_len));
+    TX_DATA.len = 20;
+    TX_DATA.flags = MSG_REQ_CTIME;
+    TX_DATA.dtype = MSG_TYPE_STRING;
 
-    bool result = wait_rx_payload_ready_timeout(100);
+    rfm69_write_msg(TX_DATA);
+    result = wait_rx_payload_ready_timeout(100);
 
     if (result) {
-        rx_rtc_data = rfm69_read_msg();
-        if (rx_rtc_data.flags == 2) {
-//            uart_print_tx_rx_data(rx_rtc_data);
+        RX_DATA = rfm69_read_msg();
+        if (RX_DATA.flags == 2) {
 
-            // td.Second = rx_data.msg[0];
-            td.Second = id_data.hashed;
+            // TIME.Second = rx_data.msg[0];
+            TIME.Second = id_data.hashed;
 
-            td.Minute = rx_rtc_data.msg[1];
-            td.Hour = rx_rtc_data.msg[2];
-            td.Day = rx_rtc_data.msg[3];
-            td.Month = rx_rtc_data.msg[4];
-            td.Year = rx_rtc_data.msg[5];
-            td.Wday = rx_rtc_data.msg[6];
+            TIME.Minute = RX_DATA.msg[1];
+            TIME.Hour = RX_DATA.msg[2];
+            TIME.Day = RX_DATA.msg[3];
+            TIME.Month = RX_DATA.msg[4];
+            TIME.Year = RX_DATA.msg[5];
+            TIME.Wday = RX_DATA.msg[6];
 
-            rtc_write_time(td);
+            rtc_write_time(TIME);
             return RTC_RFM69_SET_TIME_SUCCESS;
         }
     } else {
-//        uart_sendString("Did not get RX\r\n");;
+        // uart_sendString("Did not get RX\n");
     }
     return RTC_RFM69_SET_TIME_FAILED;
 }
 
 uint8_t rtc_set_per_minute_alarm()
 {
-    uint8_t data[3];
-    data[0] = 0x80;
-    data[1] = 0x80;
-    data[2] = 0x80;
 
-    return write_n_bytes(I2C_ADDR, 0x13, data, 3);
-    // if (i2c_start((I2C_ADDR << 1) | 0x00))
-    //     return 1; // Start + Write
-    // i2c_write(0x13);
-    // i2c_write(0x80);
-    // i2c_write(0x80);
-    // i2c_write(0x80);
-    // i2c_stop();
-    // return 0;
+    DATA_BUFFER_7[0] = 0x80;
+    DATA_BUFFER_7[1] = 0x80;
+    DATA_BUFFER_7[2] = 0x80;
+
+    return write_n_bytes(I2C_ADDR, 0x13, DATA_BUFFER_7, 3);
 }
 
 void uart_print_rtc_time(time_struct td)
 {
-    char buffer[20];
+    char str_rtc[26];
     snprintf(
-        buffer, sizeof(buffer), "%u/%02u/%02u %u:%02u:%02u", 2000 + td.Year, td.Month, td.Day,
-        td.Hour, td.Minute, td.Second);
-    uart_sendString(buffer);
-    uart_sendString("\r\n");
+        str_rtc, sizeof(str_rtc), "%u/%02u/%02u %u:%02u:%02u", 2000 + td.Year,
+        td.Month, td.Day, td.Hour, td.Minute, td.Second);
+    uart_sendString(str_rtc);
+    uart_sendString("\n");
 }
 
-uint8_t rtc_read_register(uint8_t addr)
-{
-    return read_one_byte_no_err_register(I2C_ADDR, addr);
-    // if (i2c_start((I2C_ADDR << 1) | 0x00))
-    //     return 1; // Start + Write
-    // i2c_write(addr);
-
-    // if (i2c_start((I2C_ADDR << 1) | 0x01) != 0) { // Start + Read
-    //     i2c_stop();
-    //     return 1;
-    // }
-    // uint8_t var = i2c_read_nack();
-    // i2c_stop();
-    // return var;
-}
+uint8_t rtc_read_register(uint8_t addr) { return read_one_byte_no_err_register(I2C_ADDR, addr); }
 
 uint8_t rtc_read_status_register() { return rtc_read_register(0x00); }
 
 uint8_t rtc_read_interrupt_register() { return rtc_read_register(0x01); }
 
-uint8_t rtc_set_alarm_config()
-{
+uint8_t rtc_set_alarm_config() { return write_one_byte(I2C_ADDR, 0x04, 0b00001010); }
 
-    return write_one_byte(I2C_ADDR, 0x04, 0b00001010);
-    // if (i2c_start((I2C_ADDR << 1) | 0x00))
-    //     return 1; // Start + Write
-    // i2c_write(0x04);
-    // i2c_write(0x00);
-    // i2c_stop();
-    // return 0;
-}
+uint8_t rtc_enable_interrupts() { return write_one_byte(I2C_ADDR, 0x01, 0b00000010); }
 
-uint8_t rtc_enable_interrupts()
-{
-    //    return write_one_byte(I2C_ADDR, 0x01, 0b00001010);
-    return write_one_byte(I2C_ADDR, 0x01, 0b00000010);
-    // if (i2c_start((I2C_ADDR << 1) | 0x00))
-    //     return 1; // Start + Write
-    // i2c_write(0x01);
-    // i2c_write(0b00001010);
-    // i2c_stop();
-    // return 0;
-}
-
-uint8_t rtc_read_time_array(uint8_t* data)
-{
-
-    return read_n_bytes(I2C_ADDR, 0x06, data, 7);
-
-    // if (i2c_start((I2C_ADDR << 1) | 0x00))
-    //     return 1; // Start + Write
-    // i2c_write(0x06);
-
-    // if (i2c_start((I2C_ADDR << 1) | 0x01) != 0) { // Start + Read
-    //     i2c_stop();
-    //     return 1;
-    // }
-
-    // for (uint8_t i = 0; i < 6; i++) {
-    //     data[i] = i2c_read_ack(); // Read byte with ACK
-    // }
-    // data[6] = i2c_read_nack(); // Read last byte with NACK
-
-    // i2c_stop(); // Stop communication
-    // return 0; // Success
-}
+uint8_t rtc_read_time_array(uint8_t* data) { return read_n_bytes(I2C_ADDR, 0x06, data, 7); }
 
 time_struct rtc_read_time()
 {
 
-    rtc_read_time_array(data);
-    time_data.Second = BCD2DEC(data[0]);
-    time_data.Minute = BCD2DEC(data[1]);
-    time_data.Hour = BCD2DEC((data[2] & ~(1 << 6)));
-    time_data.Wday = data[3];
-    time_data.Day = BCD2DEC(data[4]);
-    time_data.Month = BCD2DEC((data[5] & ~(1 << 7)));
-    time_data.Year = tmYearToY2k(BCD2DEC(data[6]));
-    return time_data;
+    rtc_read_time_array(DATA_BUFFER_7);
+    TIME.Second = BCD2DEC(DATA_BUFFER_7[0]);
+    TIME.Minute = BCD2DEC(DATA_BUFFER_7[1]);
+    TIME.Hour = BCD2DEC((DATA_BUFFER_7[2] & ~(1 << 6)));
+    TIME.Wday = DATA_BUFFER_7[3];
+    TIME.Day = BCD2DEC(DATA_BUFFER_7[4]);
+    TIME.Month = BCD2DEC((DATA_BUFFER_7[5] & ~(1 << 7)));
+    TIME.Year = tmYearToY2k(BCD2DEC(DATA_BUFFER_7[6]));
+#if DO_UART
+    uart_print_rtc_time(TIME);
+#endif
+    return TIME;
 };
 
 uint8_t rtc_write_time(time_struct tm)

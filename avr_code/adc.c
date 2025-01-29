@@ -25,7 +25,7 @@ void adc_Enable()
 }
 
 
-void adc_StartConversion(adc_0_channel_t channel)
+void adc_StartConversion(uint8_t channel)
 {
     if (channel == 0)
     {
@@ -50,20 +50,18 @@ bool adc_IsConversionDone()
 	return ((ADCSRA & (1 << ADIF)));
 }
 
-adc_result_t adc_GetConversionResult(void)
+uint16_t adc_GetConversionResult(void)
 {
 	return (ADCL | ADCH << 8);
-    
-//    return (ADCL + (ADCH*256));
 }
 
-adc_result_t adc_GetConversion(adc_0_channel_t channel)
+uint16_t adc_GetConversion(uint8_t channel)
 {
-	adc_result_t res;
+
 
 	adc_StartConversion(channel);
 	while (!adc_IsConversionDone());
-	res = adc_GetConversionResult();
+	uint16_t res = adc_GetConversionResult();
 	ADCSRA |= (1 << ADIF);
 	return res;
 }

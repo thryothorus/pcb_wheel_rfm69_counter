@@ -21,20 +21,28 @@ extern "C" {
 #define BAUD 38400
 #define F_SCL 200000UL
 
+#define DO_UART true
+
 #define MIN(a,b) (((a)<(b))?(a):(b))
 #define MAX(a,b) (((a)>(b))?(a):(b))
 
+extern unsigned char DATA_BUFFER_65[64];
+extern uint8_t DATA_BUFFER_7[7];
+extern uint8_t DATA_BUFFER_254[254];
+extern unsigned char DATA_BUFFER_20[20];
 
 typedef struct {
     uint8_t payload_len;
     char payload[255];
     uint8_t success;
 } ndef_message;
+extern ndef_message NDEF_MSG;
 
 typedef struct {
     char str[21]; // Pointer to the modified string
     size_t length; // Length of the modified string
 } trimmed_string_struct;
+extern trimmed_string_struct TRIMMED_STRING;
 
 typedef struct {
     uint8_t name_len;
@@ -43,6 +51,31 @@ typedef struct {
     uint8_t diameter_len;
     uint8_t hashed;
 } identifier_results;
+extern identifier_results IDENTIFIER;
+
+
+typedef struct {
+    uint8_t len;
+    uint8_t to;
+    uint8_t from;
+    uint8_t dtype;
+    uint8_t flags;
+    unsigned char msg[60];
+} tx_rx_data_struct;
+extern tx_rx_data_struct TX_DATA;
+extern tx_rx_data_struct RX_DATA;
+
+typedef struct {
+    uint8_t Second; // 0-59
+    uint8_t Minute; // 0-59
+    uint8_t Hour;   // 0-23
+    uint8_t Wday;   // Day of week, 1-7 (1 = Sunday)
+    uint8_t Day;    // 1-31
+    uint8_t Month;  // 1-12
+    uint8_t Year;   // Full year (e.g., 2024)
+} time_struct;
+extern time_struct TIME;
+
 
 typedef enum {
     RTC_RFM69_SET_TIME_SUCCESS = 1,
@@ -53,7 +86,7 @@ typedef enum {
 typedef enum // Goes into ID
 { DATA_SEND_SUCCESS = 1,
   DATA_NOT_SENT = 2 } DATA_SEND_STATUS;
-
+    
 
 typedef enum // Goes into ID
 { MSG_TYPE_STRING = 1,
@@ -68,27 +101,6 @@ typedef enum // Goes into flags
   MSG_RESENT_COUNTS = 34} MSG_REQUEST_TYPE_FLAG;
 
   
-typedef struct {
-    uint8_t len;
-    uint8_t to;
-    uint8_t from;
-    uint8_t dtype;
-    uint8_t flags;
-    unsigned char msg[60];
-} tx_rx_data_struct;
-
-
-typedef struct {
-    uint8_t Second; // 0-59
-    uint8_t Minute; // 0-59
-    uint8_t Hour;   // 0-23
-    uint8_t Wday;   // Day of week, 1-7 (1 = Sunday)
-    uint8_t Day;    // 1-31
-    uint8_t Month;  // 1-12
-    uint8_t Year;   // Full year (e.g., 2024)
-} time_struct;
-
-
 
 #define WHILE_BREAK(counter, attempts)      \
     counter+=1;                             \

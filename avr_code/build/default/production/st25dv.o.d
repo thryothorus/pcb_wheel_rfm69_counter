@@ -8,9 +8,9 @@ build/default/production/st25dv.o.d build/default/production/st25dv.o: \
  /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/include/avr/iom328pb.h \
  /usr/avr/include/avr/portpins.h /usr/avr/include/avr/common.h \
  /usr/avr/include/avr/version.h /usr/avr/include/avr/fuse.h \
- /usr/avr/include/avr/lock.h ndef.h states.h rfm69.h spi.h \
- /usr/avr/include/string.h /usr/avr/include/util/delay.h \
- /usr/avr/include/util/delay_basic.h uart.h
+ /usr/avr/include/avr/lock.h ndef.h uart.h /usr/avr/include/string.h \
+ states.h rfm69.h spi.h /usr/avr/include/util/delay.h \
+ /usr/avr/include/util/delay_basic.h
 st25dv.h:
 i2c.h:
 defines.h:
@@ -31,10 +31,10 @@ defines.h:
 /usr/avr/include/avr/fuse.h:
 /usr/avr/include/avr/lock.h:
 ndef.h:
+uart.h:
+/usr/avr/include/string.h:
 states.h:
 rfm69.h:
 spi.h:
-/usr/avr/include/string.h:
 /usr/avr/include/util/delay.h:
 /usr/avr/include/util/delay_basic.h:
-uart.h:

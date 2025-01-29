@@ -7,11 +7,11 @@
 #include "defines.h"
 #include "spi.h"
 #include "states.h"
+#include "uart.h"
 #include <avr/io.h>
 #include <stdbool.h>
 #include <string.h>
 #include <util/delay.h>
-#include "uart.h"
 #ifndef RFM69_H
 #define RFM69_H
 
@@ -22,8 +22,6 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-
 
 #define REG_FIFO 0x00
 #define REG_FREQ_MSB 0x07
@@ -94,7 +92,6 @@ extern "C" {
 
 #define RFM69_SPI_WRITE 0x80
 
-
 // Target frequency is 433 MHz.
 // Equation is 32MHz/2^19 = 61.03515625.  433 MHz/61.03515625 = 7,094,272
 // 7,094,272 = 01101100 01000000 00000000 = 0x6C 0x40 0x00
@@ -106,10 +103,6 @@ extern "C" {
 #define VAL_FREQ_433MHz_MID_SB 0x80
 #define VAL_FREQ_433MHz_LSB 0x00
 
-extern int8_t rssi;
-extern uint8_t len_payload;
-extern uint8_t rfm69_counter;
-extern uint32_t msg_hash;
 DATA_SEND_STATUS send_message(tx_rx_data_struct tx_data);
 void rfm69_set_state(bool state);
 
@@ -135,7 +128,7 @@ void set_rfm69_tx_power();
 void rfm69_init();
 bool wait_rx_payload_ready_timeout(uint16_t attempts);
 uint8_t hash(const char* str, uint8_t min, uint8_t max);
-uint32_t hash_3bytes(const char* str, uint8_t str_len);
+uint32_t hash_3bytes(unsigned const char* str, uint8_t str_len);
 void uart_print_tx_rx_data(tx_rx_data_struct tx_rx_print);
 
 tx_rx_data_struct generate_wheel_counts_message(

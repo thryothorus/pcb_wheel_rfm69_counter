@@ -16,7 +16,7 @@ extern "C" {
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "uart.h"
 
 #define NDEF_TLV 0x03
 #define NDEF_SHORT_RECORD (1 << 4)
@@ -24,7 +24,7 @@ extern "C" {
 #define NDEF_TEXT_RECORD 0x54
 #define TNF_KNOWN 0x01
 
-ndef_message readNDEFText(char *buf) ;
+ndef_message readNDEFText(unsigned char *buf) ;
 
 #ifdef __cplusplus
 }
