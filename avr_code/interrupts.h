@@ -6,6 +6,10 @@
  */
 
 #include <avr/io.h>
+#include <avr/interrupt.h>
+#include <avr/sleep.h>
+#include <avr/wdt.h>
+
 #include "states.h"
 #ifndef INTERRUPTS_H
 #define	INTERRUPTS_H
@@ -18,7 +22,10 @@ extern "C" {
 
     void init_pins();
     void set_up_reed_interrupt();
-    void set_debounce_timer_interrupt();
+//    void set_debounce_timer_interrupt();
+    void set_up_minute_interrupt();
+    void wdt_isr_disable();
+    void wdt_isr_enable();
 
 #ifdef	__cplusplus
 }

@@ -4,11 +4,19 @@
         SET_PIN_OUT(DDRC, DDC1);  // SCK
         SET_PIN_OUT(DDRE, DDE3);  // MOSI
         SET_PIN_IN(DDRC, DDC0); // MISO_RFM69
-//        SET_PIN_HIGH(PORTC, PC0);
-        SPCR1= (1<<SPE1) | (1<<MSTR1) | (1<<SPR10);  // Enable, Master, f_osc/16
-        // spi_deselect_all();
+        SET_PIN_HIGH(PORTC, PC0);
+        SPCR1= (1<<SPE1) | (1<<MSTR1);  // Enable, Master, f_osc/16
     }
     
+    
+    void rfm69_reset_state(bool state) {
+        SET_PIN_OUT(DDRC, DDC2);
+        if (state) {
+            SET_PIN_HIGH(PORTC, PC2);
+        } else {
+            SET_PIN_LOW(PORTC, PC2);
+        }
+    }
 
     void led_1_set_state(bool state) {
         SET_PIN_OUT(DDRD, DDD4);

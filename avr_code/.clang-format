@@ -1,0 +1,5 @@
+# .clang-format
+IndentWidth: 4
+BasedOnStyle: WebKit
+ColumnLimit: 100
+AlignAfterOpenBracket: AlwaysBreak

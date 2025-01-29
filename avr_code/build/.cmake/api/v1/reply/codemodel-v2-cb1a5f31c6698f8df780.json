@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "radio_wheel_counter_default_project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "radio_wheel_counter_default_compile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radio_wheel_counter_default_compile-Debug-200c3ae287b755479576.json",
+					"name" : "radio_wheel_counter_default_compile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "radio_wheel_counter_default_default.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radio_wheel_counter_default_default.elf-Debug-049c1823cba4ea84e74b.json",
+					"name" : "radio_wheel_counter_default_default.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build",
+		"source" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/cmake/radio_wheel_counter/default"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

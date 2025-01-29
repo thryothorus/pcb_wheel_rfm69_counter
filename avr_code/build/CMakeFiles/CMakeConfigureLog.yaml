@@ -1,0 +1,220 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 6.12.9-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/avr-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build/CMakeFiles/3.31.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1237 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      avr-gcc (GCC) 14.1.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build/CMakeFiles/CMakeScratch/TryCompile-cpFt0A"
+      binary: "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build/CMakeFiles/CMakeScratch/TryCompile-cpFt0A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build/CMakeFiles/CMakeScratch/TryCompile-cpFt0A'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_999e3
+        [1/2] /usr/bin/avr-gcc   -v -o CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        Reading specs from /usr/lib/gcc/avr/14.1.0/device-specs/specs-avr2
+        COLLECT_GCC=/usr/bin/avr-gcc
+        Target: avr
+        Configured with: /build/avr-gcc/src/gcc-14.1.0/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/'
+         /usr/lib/gcc/avr/14.1.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -mn-flash=6 -mskip-bug -quiet -dumpdir CMakeFiles/cmTC_999e3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdouble=32 -mlong-double=64 -version -o /tmp/ccq4MTDd.s
+        GNU C17 (GCC) version 14.1.0 (avr)
+        	compiled by GNU C version 14.1.1 20240507, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/avr/14.1.0/../../../../avr/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/avr/14.1.0/include
+         /usr/lib/gcc/avr/14.1.0/include-fixed
+         /usr/lib/gcc/avr/14.1.0/../../../../avr/include
+        End of search list.
+        Compiler executable checksum: da5e1088e755948afd84e0baa257b40d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/'
+         /usr/bin/avr-as -v -mmcu=avr2 -mgcc-isr -o CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj /tmp/ccq4MTDd.s
+        GNU assembler version 2.43 (avr) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/
+        LIBRARY_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/avr-gcc  -v CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj -o cmTC_999e3   && :
+        Using built-in specs.
+        Reading specs from /usr/lib/gcc/avr/14.1.0/device-specs/specs-avr2
+        COLLECT_GCC=/usr/bin/avr-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/14.1.0/lto-wrapper
+        Target: avr
+        Configured with: /build/avr-gcc/src/gcc-14.1.0/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/
+        LIBRARY_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_999e3' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'cmTC_999e3.'
+         /usr/lib/gcc/avr/14.1.0/collect2 -plugin /usr/lib/gcc/avr/14.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXZ3UML.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_999e3 -L/usr/lib/gcc/avr/14.1.0 -L/usr/lib/gcc/avr/14.1.0/../../../../avr/lib CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_999e3' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'cmTC_999e3.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/avr/14.1.0/include]
+          add: [/usr/lib/gcc/avr/14.1.0/include-fixed]
+          add: [/usr/lib/gcc/avr/14.1.0/../../../../avr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/avr/14.1.0/include] ==> [/usr/lib/gcc/avr/14.1.0/include]
+        collapse include dir [/usr/lib/gcc/avr/14.1.0/include-fixed] ==> [/usr/lib/gcc/avr/14.1.0/include-fixed]
+        collapse include dir [/usr/lib/gcc/avr/14.1.0/../../../../avr/include] ==> [/usr/avr/include]
+        implicit include dirs: [/usr/lib/gcc/avr/14.1.0/include;/usr/lib/gcc/avr/14.1.0/include-fixed;/usr/avr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/build/CMakeFiles/CMakeScratch/TryCompile-cpFt0A']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_999e3]
+        ignore line: [[1/2] /usr/bin/avr-gcc   -v -o CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from /usr/lib/gcc/avr/14.1.0/device-specs/specs-avr2]
+        ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: /build/avr-gcc/src/gcc-14.1.0/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/']
+        ignore line: [ /usr/lib/gcc/avr/14.1.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -mn-flash=6 -mskip-bug -quiet -dumpdir CMakeFiles/cmTC_999e3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdouble=32 -mlong-double=64 -version -o /tmp/ccq4MTDd.s]
+        ignore line: [GNU C17 (GCC) version 14.1.0 (avr)]
+        ignore line: [	compiled by GNU C version 14.1.1 20240507  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/avr/14.1.0/../../../../avr/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/avr/14.1.0/include]
+        ignore line: [ /usr/lib/gcc/avr/14.1.0/include-fixed]
+        ignore line: [ /usr/lib/gcc/avr/14.1.0/../../../../avr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: da5e1088e755948afd84e0baa257b40d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/']
+        ignore line: [ /usr/bin/avr-as -v -mmcu=avr2 -mgcc-isr -o CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj /tmp/ccq4MTDd.s]
+        ignore line: [GNU assembler version 2.43 (avr) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/avr-gcc  -v CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj -o cmTC_999e3   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from /usr/lib/gcc/avr/14.1.0/device-specs/specs-avr2]
+        ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/14.1.0/lto-wrapper]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: /build/avr-gcc/src/gcc-14.1.0/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/14.1.0/:/usr/lib/gcc/avr/14.1.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_999e3' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'cmTC_999e3.']
+        link line: [ /usr/lib/gcc/avr/14.1.0/collect2 -plugin /usr/lib/gcc/avr/14.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXZ3UML.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_999e3 -L/usr/lib/gcc/avr/14.1.0 -L/usr/lib/gcc/avr/14.1.0/../../../../avr/lib CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+          arg [/usr/lib/gcc/avr/14.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/avr/14.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/avr/14.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXZ3UML.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_999e3] ==> ignore
+          arg [-L/usr/lib/gcc/avr/14.1.0] ==> dir [/usr/lib/gcc/avr/14.1.0]
+          arg [-L/usr/lib/gcc/avr/14.1.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/14.1.0/../../../../avr/lib]
+          arg [CMakeFiles/cmTC_999e3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_999e3' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-avr2' '-dumpdir' 'cmTC_999e3.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/usr/lib/gcc/avr/14.1.0] ==> [/usr/lib/gcc/avr/14.1.0]
+        collapse library dir [/usr/lib/gcc/avr/14.1.0/../../../../avr/lib] ==> [/usr/avr/lib]
+        implicit libs: [gcc;m;c]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/avr/14.1.0;/usr/avr/lib]
+        implicit fwks: []
+      
+      
+...

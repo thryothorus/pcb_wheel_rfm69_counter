@@ -1,0 +1,20 @@
+# ninja log v6
+347	374	1736560459213458420	radio_wheel_counter_default_default.elf	8b8701c64e822d48
+2	314	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o	e114eb53718946a4
+2	329	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o	a918e8084bcfb69a
+0	342	1736560458866788059	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o	6801bada4870823f
+3	312	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o	6cabdb0db6de64fc
+1	312	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o	74afa73bb3ee4e98
+1	316	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o	93c228bdfd1bdcfb
+0	327	1736560458866788059	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o	5813a6bea528577a
+1	347	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o	16fd185c37977d82
+2	312	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o	e32ed3df626da76b
+1	342	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o	f289d607ba2c74bc
+2	312	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o	eefebc82426230d5
+3	317	1736560458870121428	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o	3cdefa41b7dff7e8
+2	231	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o	93c228bdfd1bdcfb
+2	231	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o	3cdefa41b7dff7e8
+2	233	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o	eefebc82426230d5
+1	270	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o	5813a6bea528577a
+1	270	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o	6801bada4870823f
+1	292	1738067822842319461	CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o	16fd185c37977d82

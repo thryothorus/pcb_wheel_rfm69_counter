@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o"
+},
+{
+  "directory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/_build/radio_wheel_counter/default",
+  "command": "/opt/microchip/xc8/v2.32/bin/xc8-cc -mcpu=ATmega328PB -c -x c -D__ATmega328PB__ -mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o -c /home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c",
+  "file": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c",
+  "output": "CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o"
+}
+]

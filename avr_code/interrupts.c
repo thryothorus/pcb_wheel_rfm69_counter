@@ -1,5 +1,5 @@
 
-#include "states.h"
+#include "interrupts.h"
 
 void init_pins() {
 
@@ -17,9 +17,38 @@ void set_up_reed_interrupt() {
     EIMSK |= (1 << INT1);
 }
 
-void set_debounce_timer_interrupt() {
-    TCCR0A = 0;
-    TCCR0B = (1 << CS01) | (1 << CS00);
-    TIMSK0 = (1 << TOIE0);
-    TCNT0 = 0;
+void set_up_minute_interrupt() {
+    EICRA |= (1 << ISC01);
+    EICRA &= ~(1 << ISC00);
+
+    // Enable INT1 interrupt
+    EIMSK |= (1 << INT0);
 }
+
+void wdt_isr_enable() {
+    cli();
+    wdt_reset();
+
+    WDTCSR |= (1 << WDCE) | (1 << WDE);
+
+    WDTCSR = (1 << WDP2) | (1 << WDP0); // WDP[3:0] = 0b101 (2 seconds)
+    WDTCSR |= (1 << WDIE); // Enable WDT Interrupt mode
+    sei();
+}
+
+void wdt_isr_disable() {
+
+    cli();
+
+    WDTCSR |= (1 << WDCE) | (1 << WDE);
+    WDTCSR = 0x00; 
+
+    sei(); 
+}
+//
+//void set_debounce_timer_interrupt() {
+//    TCCR0A = 0;
+//    TCCR0B = (1 << CS01) | (1 << CS00);
+//    TIMSK0 = (1 << TOIE0);
+//    TCNT0 = 0;
+//}

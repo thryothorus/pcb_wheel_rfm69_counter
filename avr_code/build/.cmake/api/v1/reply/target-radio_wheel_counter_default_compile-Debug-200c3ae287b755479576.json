@@ -1,0 +1,291 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/radio_wheel_counter_default_compile.dir/./home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"radio_wheel_counter_default_compile_rule"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=ATmega328PB"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-c"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "c"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-D__ATmega328PB__"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mdfp=/home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wl,--gc-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-funsigned-char"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-funsigned-bitfields"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DXPRJ_default=default"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-gdwarf-3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-const-data-in-progmem"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"id" : "radio_wheel_counter_default_compile::@6890427a1f51a3e7e1df",
+	"name" : "radio_wheel_counter_default_compile",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

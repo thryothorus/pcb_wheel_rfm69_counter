@@ -1,0 +1,1482 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o (__udivmodhi4)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o (__divmodhi4)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o (__udivmodsi4)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o (exit)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o (__do_copy_data)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o (dtostrf)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o (memcpy)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o (memset)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o (strchr)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+                              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o (snprintf)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o) (vfprintf)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o) (dtoa_prf)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o) (__ftoa_engine)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (fputc)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o) (__prologue_saves__)
+/opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                              /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+diameter_str        0x80              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+cond_1              0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+main_counter        0x2               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+name_str            0x80              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+trimmed_string      0x4               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+tx_rx_data          0x41              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+c_hash_3            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+self_value          0x2               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+c_hash_2            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+total_wheel_counts  0x1e              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+diameter_len        0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+msg_hash            0x4               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+cond_3              0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+name_len            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+string_trim_result  0x4               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+output_buffer       0x200             CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+time_data           0x7               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+p_hash_1            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+p_hash_2            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+array_internal      0x10              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+len_payload         0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+binary_string       0x9               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+cond_4              0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+data                0x7               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+c_hash_1            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+rx_data             0x41              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+cond_2              0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+rssi                0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+p_hash_3            0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+td                  0x7               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+cond_5              0x1               CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+tx_data             0x41              CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .bss           0x0000000000000000        0x0 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .text.start_sleeping
+                0x0000000000000000       0x32 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.uart_sendStringArray
+                0x0000000000000000       0x32 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.uart_print_float
+                0x0000000000000000       0x44 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.bytes2hex
+                0x0000000000000000       0x50 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.uart_print_binary_hex
+                0x0000000000000000       0x90 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.uart_print_hex
+                0x0000000000000000       0x5e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text.uart_print_rtc_time
+                0x0000000000000000       0x94 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .data.HexLookUp
+                0x0000000000000000       0x11 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text.rfm69_set_state
+                0x0000000000000000        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text.wait_rx_payload_ready
+                0x0000000000000000        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text.set_rfm69_standby
+                0x0000000000000000       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text.set_rfm69_sleep
+                0x0000000000000000       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text.set_rfm69_tx_power
+                0x0000000000000000        0xa CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .text.led_1_set_state
+                0x0000000000000000        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .text.led_2_set_state
+                0x0000000000000000        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .text.led_3_set_state
+                0x0000000000000000        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .text.read_one_byte_16bit_addr
+                0x0000000000000000        0x8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .text.read_one_byte_16bit_addr_no_err_register
+                0x0000000000000000       0x1e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .text.spi_eeprom_select
+                0x0000000000000000        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_info    0x0000000000000000      0x261 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_abbrev  0x0000000000000000       0x55 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_line    0x0000000000000000       0xc6 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_str     0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .comment       0x0000000000000000       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .debug_frame   0x0000000000000000       0x24 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .text.rfid_read_system_register
+                0x0000000000000000        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .text.shutdown_all_peripherals
+                0x0000000000000000       0x34 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_info    0x0000000000000000      0x24e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_abbrev  0x0000000000000000       0x42 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_line    0x0000000000000000       0xdc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_str     0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .comment       0x0000000000000000       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .debug_frame   0x0000000000000000       0x24 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x19 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .text.avrlibc  0x0000000000000000       0x40 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .comment       0x0000000000000000       0x2d /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtostrf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .stack.descriptors
+                0x0000000000000000       0x14 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .stack.descriptors
+                0x0000000000000000       0x14 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .stack.descriptors
+                0x0000000000000000       0x14 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+ .stack.descriptors
+                0x0000000000000000       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .stack.descriptors
+                0x0000000000000000       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .stack.descriptors
+                0x0000000000000000       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .text.avrlibc  0x0000000000000000      0x2b4 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .comment       0x0000000000000000       0x2d /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(dtoa_prf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .text.avrlibc  0x0000000000000000      0x1b0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .stack.descriptors
+                0x0000000000000000       0x1b /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .progmem.data  0x0000000000000000       0xfa /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ftoa_engine.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .stack.descriptors
+                0x0000000000000000       0x17 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .stack.descriptors
+                0x0000000000000000       0x1c /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800100 0x0000000000000800 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+START GROUP
+END GROUP
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/m95128.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/power_mgmt.c.o
+LOAD CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+START GROUP
+LOAD /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libm.a
+LOAD /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a
+LOAD /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/libatmega328pb.a
+END GROUP
+                [0x0000000000000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0x11a
+ *(.vectors)
+ .vectors       0x0000000000000000       0xb4 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.dinit)
+ .dinit         0x00000000000000b4       0x11 data_init
+                0x00000000000000c6                . = ALIGN (0x2)
+ *fill*         0x00000000000000c5        0x1 
+                0x00000000000000c6                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000c6        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000c6                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+                0x00000000000000c6                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000000c6                __ctors_start = .
+ *(.ctors)
+                0x00000000000000c6                __ctors_end = .
+                0x00000000000000c6                __dtors_start = .
+ *(.dtors)
+                0x00000000000000c6                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000000c6        0x0 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+                0x00000000000000c6                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000000c6        0xc /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000000d2       0x3c /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x00000000000000d2                __do_copy_data
+                0x0000000000000100                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000010e        0x8 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ *(.init9)
+                0x0000000000000116                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000116        0x0 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000116                exit
+                0x0000000000000116                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000116        0x4 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000000011a                _etext = .
+
+.data           0x0000000000800100        0x0 load address 0x000000000000011a
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800100                . = ALIGN (0x2)
+                0x0000000000800100                _edata = .
+                [!provide]                        PROVIDE (__data_end, .)
+
+.bss            0x0000000000800100      0x42e
+                [!provide]                        PROVIDE (__bss_start, .)
+ *(COMMON)
+ COMMON         0x0000000000800100      0x1bc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x0000000000800100                diameter_str
+                0x0000000000800180                cond_1
+                0x0000000000800181                main_counter
+                0x0000000000800183                name_str
+                0x0000000000800203                c_hash_3
+                0x0000000000800204                self_value
+                0x0000000000800206                c_hash_2
+                0x0000000000800207                total_wheel_counts
+                0x0000000000800225                diameter_len
+                0x0000000000800226                cond_3
+                0x0000000000800227                name_len
+                0x0000000000800228                string_trim_result
+                0x000000000080022c                p_hash_1
+                0x000000000080022d                p_hash_2
+                0x000000000080022e                cond_4
+                0x000000000080022f                c_hash_1
+                0x0000000000800230                rx_data
+                0x0000000000800271                cond_2
+                0x0000000000800272                p_hash_3
+                0x0000000000800273                td
+                0x000000000080027a                cond_5
+                0x000000000080027b                tx_data
+ COMMON         0x00000000008002bc      0x219 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x00000000008002bc                output_buffer
+                0x00000000008004bc                array_internal
+                0x00000000008004cc                binary_string
+ COMMON         0x00000000008004d5       0x47 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x00000000008004d5                tx_rx_data
+                0x0000000000800516                msg_hash
+                0x000000000080051a                len_payload
+                0x000000000080051b                rssi
+ COMMON         0x000000000080051c        0x4 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x000000000080051c                trimmed_string
+ COMMON         0x0000000000800520        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000800520                time_data
+                0x0000000000800527                data
+                [!provide]                        PROVIDE (__bss_end, .)
+                0x000000000000011a                __data_load_start = LOADADDR (.data)
+                0x000000000000011a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080052e        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x000000000080052e                _end = .
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x5b
+ *(.comment)
+ .comment       0x0000000000000000       0x2f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+ .comment       0x000000000000002f       0x2c /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.stack.descriptors.hdr
+                0x0000000000000000       0xb6
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .stack.descriptors.hdr
+                0x000000000000000e        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .stack.descriptors.hdr
+                0x000000000000001c        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .stack.descriptors.hdr
+                0x000000000000002a        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .stack.descriptors.hdr
+                0x0000000000000038        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .stack.descriptors.hdr
+                0x0000000000000046        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .stack.descriptors.hdr
+                0x0000000000000054        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+ .stack.descriptors.hdr
+                0x0000000000000062        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+ .stack.descriptors.hdr
+                0x0000000000000070        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .stack.descriptors.hdr
+                0x000000000000007e        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .stack.descriptors.hdr
+                0x000000000000008c        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .stack.descriptors.hdr
+                0x000000000000009a        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .stack.descriptors.hdr
+                0x00000000000000a8        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x3f0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x48 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_aranges
+                0x0000000000000048       0x90 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_aranges
+                0x00000000000000d8       0xe8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_aranges
+                0x00000000000001c0       0x48 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_aranges
+                0x0000000000000208       0x88 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_aranges
+                0x0000000000000290       0x28 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_aranges
+                0x00000000000002b8       0x48 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_aranges
+                0x0000000000000300       0x40 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_aranges
+                0x0000000000000340       0x60 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_aranges
+                0x00000000000003a0       0x50 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5e97
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x8ea /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .debug_info    0x00000000000008ea     0x125d CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_info    0x0000000000001b47      0xd80 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_info    0x00000000000028c7     0x1397 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_info    0x0000000000003c5e      0x339 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_info    0x0000000000003f97      0x84b CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_info    0x00000000000047e2      0x27f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_info    0x0000000000004a61      0x6a4 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_info    0x0000000000005105      0x2c8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_info    0x00000000000053cd      0x6ff CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_info    0x0000000000005acc      0x3cb CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_abbrev   0x0000000000000000     0x14a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x86e /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .debug_abbrev  0x000000000000086e      0x23f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_abbrev  0x0000000000000aad      0x18d CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_abbrev  0x0000000000000c3a      0x252 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_abbrev  0x0000000000000e8c       0x83 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_abbrev  0x0000000000000f0f      0x11e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_abbrev  0x000000000000102d       0x86 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_abbrev  0x00000000000010b3      0x1ba CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_abbrev  0x000000000000126d       0x42 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_abbrev  0x00000000000012af      0x109 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_abbrev  0x00000000000013b8       0xea CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_line     0x0000000000000000     0x20a5
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x1a6 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .debug_line    0x00000000000001a6      0x591 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_line    0x0000000000000737      0x48f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_line    0x0000000000000bc6      0x732 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_line    0x00000000000012f8      0x194 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_line    0x000000000000148c      0x3b4 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_line    0x0000000000001840       0xeb CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_line    0x000000000000192b      0x253 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_line    0x0000000000001b7e      0x15e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_line    0x0000000000001cdc      0x22d CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_line    0x0000000000001f09      0x19c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_frame    0x0000000000000000      0xba8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x160 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_frame   0x0000000000000160      0x270 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_frame   0x00000000000003d0      0x314 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_frame   0x00000000000006e4       0x74 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_frame   0x0000000000000758      0x1a8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_frame   0x0000000000000900       0x34 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_frame   0x0000000000000934       0x90 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_frame   0x00000000000009c4       0x64 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_frame   0x0000000000000a28       0xfc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_frame   0x0000000000000b24       0x84 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_str      0x0000000000000000      0x6f6
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x318 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+ .debug_str     0x0000000000000318      0x2bd CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_str     0x00000000000005d5       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_str     0x00000000000005e7       0x2f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_str     0x0000000000000616        0x6 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_str     0x000000000000061c       0x27 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_str     0x0000000000000643        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_str     0x0000000000000643       0x4e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_str     0x0000000000000691        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_str     0x0000000000000691       0x65 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_str     0x00000000000006f6        0x0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_loc      0x0000000000000000     0x1716
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x255 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_loc     0x0000000000000255      0x4c9 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_loc     0x000000000000071e      0x716 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_loc     0x0000000000000e34      0x544 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_loc     0x0000000000001378       0x1f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_loc     0x0000000000001397      0x1ab CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_loc     0x0000000000001542      0x160 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_loc     0x00000000000016a2       0x74 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x390
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x78 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+ .debug_ranges  0x0000000000000078       0x80 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+ .debug_ranges  0x00000000000000f8       0xd8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+ .debug_ranges  0x00000000000001d0       0x38 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+ .debug_ranges  0x0000000000000208       0x78 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+ .debug_ranges  0x0000000000000280       0x18 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+ .debug_ranges  0x0000000000000298       0x38 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+ .debug_ranges  0x00000000000002d0       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+ .debug_ranges  0x0000000000000300       0x50 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+ .debug_ranges  0x0000000000000350       0x40 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(radio_wheel_counter_default_default.elf elf32-avr)
+LOAD linker stubs
+LOAD data_init
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+
+.bss.index_wheel_count
+                0x0000000000800729        0x1
+ .bss.index_wheel_count
+                0x0000000000800729        0x1 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x0000000000800729                index_wheel_count
+
+.bss.increment_minute_index
+                0x000000000080072a        0x1
+ .bss.increment_minute_index
+                0x000000000080072a        0x1 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x000000000080072a                increment_minute_index
+
+.bss.is_debouncing
+                0x000000000080072b        0x1
+ .bss.is_debouncing
+                0x000000000080072b        0x1 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x000000000080072b                is_debouncing
+
+.text.main      0x000000000000011a      0x510
+ .text.main     0x000000000000011a      0x510 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x000000000000011a                main
+
+.text.avrlibc   0x000000000000062a      0x3c2
+ .text.avrlibc  0x000000000000062a      0x3c2 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x000000000000062a                vfprintf
+
+.text.generate_wheel_counts_message
+                0x00000000000009ec      0x142
+ .text.generate_wheel_counts_message
+                0x00000000000009ec      0x142 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x00000000000009ec                generate_wheel_counts_message
+
+.text.rtc_write_time
+                0x0000000000000b2e      0x120
+ .text.rtc_write_time
+                0x0000000000000b2e      0x120 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000000b2e                rtc_write_time
+
+.text.rtc_read_time
+                0x0000000000000c4e      0x10c
+ .text.rtc_read_time
+                0x0000000000000c4e      0x10c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000000c4e                rtc_read_time
+
+.text.uart_print_uint8_array
+                0x0000000000000d5a       0xde
+ .text.uart_print_uint8_array
+                0x0000000000000d5a       0xde CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000000d5a                uart_print_uint8_array
+
+.text.rfm69_init
+                0x0000000000000e38       0xd4
+ .text.rfm69_init
+                0x0000000000000e38       0xd4 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000000e38                rfm69_init
+
+.text.hash_3bytes
+                0x0000000000000f0c       0xbe
+ .text.hash_3bytes
+                0x0000000000000f0c       0xbe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000000f0c                hash_3bytes
+
+.text.avrlibc   0x0000000000000fca       0xbc
+ .text.avrlibc  0x0000000000000fca       0xbc /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x0000000000000fca                __ultoa_invert
+
+.text.read_n_bytes_16bit_addr
+                0x0000000000001086       0xa8
+ .text.read_n_bytes_16bit_addr
+                0x0000000000001086       0xa8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001086                read_n_bytes_16bit_addr
+
+.text.read_n_bytes
+                0x000000000000112e       0xa0
+ .text.read_n_bytes
+                0x000000000000112e       0xa0 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x000000000000112e                read_n_bytes
+
+.text.rfm69_write_msg
+                0x00000000000011ce       0x9c
+ .text.rfm69_write_msg
+                0x00000000000011ce       0x9c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x00000000000011ce                rfm69_write_msg
+
+.text.rfm69_read_msg
+                0x000000000000126a       0x92
+ .text.rfm69_read_msg
+                0x000000000000126a       0x92 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x000000000000126a                rfm69_read_msg
+
+.text.__vector_2
+                0x00000000000012fc       0x86
+ .text.__vector_2
+                0x00000000000012fc       0x86 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x00000000000012fc                __vector_2
+
+.text.avrlibc   0x0000000000001382       0x78
+ .text.avrlibc  0x0000000000001382       0x78 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                0x0000000000001382                fputc
+
+.text.rfid_read_first_ndef_entry
+                0x00000000000013fa       0x6e
+ .text.rfid_read_first_ndef_entry
+                0x00000000000013fa       0x6e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x00000000000013fa                rfid_read_first_ndef_entry
+
+.text.uart_print_binary
+                0x0000000000001468       0x6c
+ .text.uart_print_binary
+                0x0000000000001468       0x6c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001468                uart_print_binary
+
+.text.uart_print_uint8
+                0x00000000000014d4       0x66
+ .text.uart_print_uint8
+                0x00000000000014d4       0x66 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x00000000000014d4                uart_print_uint8
+
+.text.write_n_bytes
+                0x000000000000153a       0x62
+ .text.write_n_bytes
+                0x000000000000153a       0x62 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x000000000000153a                write_n_bytes
+
+.text.uart_print_uint16
+                0x000000000000159c       0x60
+ .text.uart_print_uint16
+                0x000000000000159c       0x60 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x000000000000159c                uart_print_uint16
+
+.text.avrlibc   0x00000000000015fc       0x60
+ .text.avrlibc  0x00000000000015fc       0x60 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(snprintf.o)
+                0x00000000000015fc                snprintf
+
+.text.spi_write_rfm69_multiple_rt
+                0x000000000000165c       0x5e
+ .text.spi_write_rfm69_multiple_rt
+                0x000000000000165c       0x5e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x000000000000165c                spi_write_rfm69_multiple_rt
+
+.text.__vector_6
+                0x00000000000016ba       0x58
+ .text.__vector_6
+                0x00000000000016ba       0x58 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x00000000000016ba                __vector_6
+
+.text.__vector_1
+                0x0000000000001712       0x56
+ .text.__vector_1
+                0x0000000000001712       0x56 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x0000000000001712                __vector_1
+
+.text.uart_print_tx_rx_data
+                0x0000000000001768       0x50
+ .text.uart_print_tx_rx_data
+                0x0000000000001768       0x50 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001768                uart_print_tx_rx_data
+
+.text.hash      0x00000000000017b8       0x48
+ .text.hash     0x00000000000017b8       0x48 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x00000000000017b8                hash
+
+.text.remove_spaces
+                0x0000000000001800       0x46
+ .text.remove_spaces
+                0x0000000000001800       0x46 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x0000000000001800                remove_spaces
+
+.text.libgcc.div
+                0x0000000000001846       0x44
+ .text.libgcc.div
+                0x0000000000001846       0x44 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000001846                __udivmodsi4
+
+.text.wait_rx_payload_ready_timeout
+                0x000000000000188a       0x40
+ .text.wait_rx_payload_ready_timeout
+                0x000000000000188a       0x40 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x000000000000188a                wait_rx_payload_ready_timeout
+
+.text.i2c_start
+                0x00000000000018ca       0x3c
+ .text.i2c_start
+                0x00000000000018ca       0x3c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x00000000000018ca                i2c_start
+
+.text.libgcc.prologue
+                0x0000000000001906       0x38
+ .text.libgcc.prologue
+                0x0000000000001906       0x38 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                0x0000000000001906                __prologue_saves__
+
+.text.libgcc.prologue
+                0x000000000000193e       0x36
+ .text.libgcc.prologue
+                0x000000000000193e       0x36 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                0x000000000000193e                __epilogue_restores__
+
+.text.adc_StartConversion
+                0x0000000000001974       0x34
+ .text.adc_StartConversion
+                0x0000000000001974       0x34 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001974                adc_StartConversion
+
+.text.rtc_set_per_minute_alarm
+                0x00000000000019a8       0x30
+ .text.rtc_set_per_minute_alarm
+                0x00000000000019a8       0x30 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x00000000000019a8                rtc_set_per_minute_alarm
+
+.text.get_battery_reading
+                0x00000000000019d8       0x2c
+ .text.get_battery_reading
+                0x00000000000019d8       0x2c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+                0x00000000000019d8                get_battery_reading
+
+.text.spi_write_rfm69_rt
+                0x0000000000001a04       0x2c
+ .text.spi_write_rfm69_rt
+                0x0000000000001a04       0x2c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001a04                spi_write_rfm69_rt
+
+.text.libgcc.div
+                0x0000000000001a30       0x28
+ .text.libgcc.div
+                0x0000000000001a30       0x28 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000001a30                __udivmodhi4
+
+.text.libgcc.div
+                0x0000000000001a58       0x28
+ .text.libgcc.div
+                0x0000000000001a58       0x28 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000001a58                __divmodhi4
+                0x0000000000001a58                _div
+
+.text.spi_read_rfm69_rt
+                0x0000000000001a80       0x26
+ .text.spi_read_rfm69_rt
+                0x0000000000001a80       0x26 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001a80                spi_read_rfm69_rt
+
+.text.reset_rfm69
+                0x0000000000001aa6       0x26
+ .text.reset_rfm69
+                0x0000000000001aa6       0x26 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001aa6                reset_rfm69
+
+.text.i2c_write
+                0x0000000000001acc       0x24
+ .text.i2c_write
+                0x0000000000001acc       0x24 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001acc                i2c_write
+
+.text.reset_txrx_struct
+                0x0000000000001af0       0x20
+ .text.reset_txrx_struct
+                0x0000000000001af0       0x20 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001af0                reset_txrx_struct
+
+.text.write_one_byte
+                0x0000000000001b10       0x20
+ .text.write_one_byte
+                0x0000000000001b10       0x20 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001b10                write_one_byte
+
+.text.uart_sendString
+                0x0000000000001b30       0x1e
+ .text.uart_sendString
+                0x0000000000001b30       0x1e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001b30                uart_sendString
+
+.text.read_one_byte_no_err_register
+                0x0000000000001b4e       0x1e
+ .text.read_one_byte_no_err_register
+                0x0000000000001b4e       0x1e CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001b4e                read_one_byte_no_err_register
+
+.text.set_rfm69_mode
+                0x0000000000001b6c       0x1c
+ .text.set_rfm69_mode
+                0x0000000000001b6c       0x1c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001b6c                set_rfm69_mode
+
+.text.wdt_isr_enable
+                0x0000000000001b88       0x1c
+ .text.wdt_isr_enable
+                0x0000000000001b88       0x1c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+                0x0000000000001b88                wdt_isr_enable
+
+.text.adc_GetConversion
+                0x0000000000001ba4       0x1c
+ .text.adc_GetConversion
+                0x0000000000001ba4       0x1c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001ba4                adc_GetConversion
+
+.text.uart_init
+                0x0000000000001bc0       0x18
+ .text.uart_init
+                0x0000000000001bc0       0x18 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001bc0                uart_init
+
+.text.uart_wait_until_sent
+                0x0000000000001bd8       0x16
+ .text.uart_wait_until_sent
+                0x0000000000001bd8       0x16 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001bd8                uart_wait_until_sent
+
+.text.i2c_read_ack
+                0x0000000000001bee       0x16
+ .text.i2c_read_ack
+                0x0000000000001bee       0x16 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001bee                i2c_read_ack
+
+.text.i2c_read_nack
+                0x0000000000001c04       0x16
+ .text.i2c_read_nack
+                0x0000000000001c04       0x16 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001c04                i2c_read_nack
+
+.text.avrlibc   0x0000000000001c1a       0x16
+ .text.avrlibc  0x0000000000001c1a       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strchr.o)
+                0x0000000000001c1a                strchr
+
+.text.avrlibc   0x0000000000001c30       0x16
+ .text.avrlibc  0x0000000000001c30       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x0000000000001c30                strnlen_P
+
+.text.avrlibc   0x0000000000001c46       0x16
+ .text.avrlibc  0x0000000000001c46       0x16 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x0000000000001c46                strnlen
+
+.text.spi_write
+                0x0000000000001c5c       0x14
+ .text.spi_write
+                0x0000000000001c5c       0x14 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+                0x0000000000001c5c                spi_write
+
+.text.set_up_reed_interrupt
+                0x0000000000001c70       0x14
+ .text.set_up_reed_interrupt
+                0x0000000000001c70       0x14 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+                0x0000000000001c70                set_up_reed_interrupt
+
+.text.set_up_minute_interrupt
+                0x0000000000001c84       0x14
+ .text.set_up_minute_interrupt
+                0x0000000000001c84       0x14 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+                0x0000000000001c84                set_up_minute_interrupt
+
+.text.adc_Initialize
+                0x0000000000001c98       0x14
+ .text.adc_Initialize
+                0x0000000000001c98       0x14 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001c98                adc_Initialize
+
+.text.set_rfm69_power_amp_boost
+                0x0000000000001cac       0x12
+ .text.set_rfm69_power_amp_boost
+                0x0000000000001cac       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001cac                set_rfm69_power_amp_boost
+
+.text.set_rfm69_power_amp_normal
+                0x0000000000001cbe       0x12
+ .text.set_rfm69_power_amp_normal
+                0x0000000000001cbe       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001cbe                set_rfm69_power_amp_normal
+
+.text.i2c_init  0x0000000000001cd0       0x12
+ .text.i2c_init
+                0x0000000000001cd0       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001cd0                i2c_init
+
+.text.i2c_stop  0x0000000000001ce2       0x12
+ .text.i2c_stop
+                0x0000000000001ce2       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001ce2                i2c_stop
+
+.text.wdt_isr_disable
+                0x0000000000001cf4       0x12
+ .text.wdt_isr_disable
+                0x0000000000001cf4       0x12 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+                0x0000000000001cf4                wdt_isr_disable
+
+.text.avrlibc   0x0000000000001d06       0x12
+ .text.avrlibc  0x0000000000001d06       0x12 /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x0000000000001d06                memcpy
+
+.text.uart_sendChar
+                0x0000000000001d18       0x10
+ .text.uart_sendChar
+                0x0000000000001d18       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o
+                0x0000000000001d18                uart_sendChar
+
+.text.set_rfm69_tx_mode
+                0x0000000000001d28       0x10
+ .text.set_rfm69_tx_mode
+                0x0000000000001d28       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001d28                set_rfm69_tx_mode
+
+.text.set_rfm69_rx_mode
+                0x0000000000001d38       0x10
+ .text.set_rfm69_rx_mode
+                0x0000000000001d38       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001d38                set_rfm69_rx_mode
+
+.text.set_rfm69_idle
+                0x0000000000001d48       0x10
+ .text.set_rfm69_idle
+                0x0000000000001d48       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001d48                set_rfm69_idle
+
+.text.init_spi  0x0000000000001d58       0x10
+ .text.init_spi
+                0x0000000000001d58       0x10 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+                0x0000000000001d58                init_spi
+
+.text.spi_rfm69_select
+                0x0000000000001d68        0xe
+ .text.spi_rfm69_select
+                0x0000000000001d68        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001d68                spi_rfm69_select
+
+.text.rfm69_reset_state
+                0x0000000000001d76        0xe
+ .text.rfm69_reset_state
+                0x0000000000001d76        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+                0x0000000000001d76                rfm69_reset_state
+
+.text.ldo_set_state
+                0x0000000000001d84        0xe
+ .text.ldo_set_state
+                0x0000000000001d84        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/states.c.o
+                0x0000000000001d84                ldo_set_state
+
+.text.rfid_set_low_power_down
+                0x0000000000001d92        0xe
+ .text.rfid_set_low_power_down
+                0x0000000000001d92        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x0000000000001d92                rfid_set_low_power_down
+
+.text.rfid_set_i2c_power
+                0x0000000000001da0        0xe
+ .text.rfid_set_i2c_power
+                0x0000000000001da0        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x0000000000001da0                rfid_set_i2c_power
+
+.text.rfid_read_memory
+                0x0000000000001dae        0xe
+ .text.rfid_read_memory
+                0x0000000000001dae        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/st25dv.c.o
+                0x0000000000001dae                rfid_read_memory
+
+.text.rtc_read_time_array
+                0x0000000000001dbc        0xe
+ .text.rtc_read_time_array
+                0x0000000000001dbc        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001dbc                rtc_read_time_array
+
+.text.adc_GetConversionResult
+                0x0000000000001dca        0xe
+ .text.adc_GetConversionResult
+                0x0000000000001dca        0xe CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001dca                adc_GetConversionResult
+
+.text.avrlibc   0x0000000000001dd8        0xe
+ .text.avrlibc  0x0000000000001dd8        0xe /opt/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                0x0000000000001dd8                memset
+
+.text.wait_tx_sent
+                0x0000000000001de6        0xc
+ .text.wait_tx_sent
+                0x0000000000001de6        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001de6                wait_tx_sent
+
+.text.wait_rfm69_mode_ready
+                0x0000000000001df2        0xc
+ .text.wait_rfm69_mode_ready
+                0x0000000000001df2        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/rfm69.c.o
+                0x0000000000001df2                wait_rfm69_mode_ready
+
+.text.rtc_set_alarm_config
+                0x0000000000001dfe        0xc
+ .text.rtc_set_alarm_config
+                0x0000000000001dfe        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001dfe                rtc_set_alarm_config
+
+.text.rtc_enable_interrupts
+                0x0000000000001e0a        0xc
+ .text.rtc_enable_interrupts
+                0x0000000000001e0a        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001e0a                rtc_enable_interrupts
+
+.text.adc_Disable
+                0x0000000000001e16        0xc
+ .text.adc_Disable
+                0x0000000000001e16        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001e16                adc_Disable
+
+.text.adc_Enable
+                0x0000000000001e22        0xc
+ .text.adc_Enable
+                0x0000000000001e22        0xc CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001e22                adc_Enable
+
+.text.rtc_read_register
+                0x0000000000001e2e        0xa
+ .text.rtc_read_register
+                0x0000000000001e2e        0xa CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001e2e                rtc_read_register
+
+.text.adc_IsConversionDone
+                0x0000000000001e38        0xa
+ .text.adc_IsConversionDone
+                0x0000000000001e38        0xa CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/adc.c.o
+                0x0000000000001e38                adc_IsConversionDone
+
+.text.read_one_byte
+                0x0000000000001e42        0x8
+ .text.read_one_byte
+                0x0000000000001e42        0x8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/i2c.c.o
+                0x0000000000001e42                read_one_byte
+
+.text.spi_read  0x0000000000001e4a        0x8
+ .text.spi_read
+                0x0000000000001e4a        0x8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/spi.c.o
+                0x0000000000001e4a                spi_read
+
+.text.rtc_read_status_register
+                0x0000000000001e52        0x8
+ .text.rtc_read_status_register
+                0x0000000000001e52        0x8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001e52                rtc_read_status_register
+
+.text.rtc_read_interrupt_register
+                0x0000000000001e5a        0x8
+ .text.rtc_read_interrupt_register
+                0x0000000000001e5a        0x8 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/max31329.c.o
+                0x0000000000001e5a                rtc_read_interrupt_register
+
+.text.init_pins
+                0x0000000000001e62        0x6
+ .text.init_pins
+                0x0000000000001e62        0x6 CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/interrupts.c.o
+                0x0000000000001e62                init_pins
+
+.text           0x0000000000001e68        0x4
+ .text          0x0000000000001e68        0x4 /home/thebears/.mchp_packs/Microchip/ATmega_DFP/3.2.269/xc8/avr/lib/avr5/crtatmega328pb.o
+                0x0000000000001e68                __vector_38
+                0x0000000000001e68                __vector_22
+                0x0000000000001e68                __vector_28
+                0x0000000000001e68                __vector_32
+                0x0000000000001e68                __vector_34
+                0x0000000000001e68                __vector_24
+                0x0000000000001e68                __vector_12
+                0x0000000000001e68                __bad_interrupt
+                0x0000000000001e68                __vector_31
+                0x0000000000001e68                __vector_35
+                0x0000000000001e68                __vector_39
+                0x0000000000001e68                __vector_3
+                0x0000000000001e68                __vector_23
+                0x0000000000001e68                __vector_30
+                0x0000000000001e68                __vector_25
+                0x0000000000001e68                __vector_11
+                0x0000000000001e68                __vector_13
+                0x0000000000001e68                __vector_17
+                0x0000000000001e68                __vector_19
+                0x0000000000001e68                __vector_7
+                0x0000000000001e68                __vector_41
+                0x0000000000001e68                __vector_43
+                0x0000000000001e68                __vector_27
+                0x0000000000001e68                __vector_5
+                0x0000000000001e68                __vector_33
+                0x0000000000001e68                __vector_37
+                0x0000000000001e68                __vector_4
+                0x0000000000001e68                __vector_44
+                0x0000000000001e68                __vector_9
+                0x0000000000001e68                __vector_21
+                0x0000000000001e68                __vector_15
+                0x0000000000001e68                __vector_36
+                0x0000000000001e68                __vector_29
+                0x0000000000001e68                __vector_40
+                0x0000000000001e68                __vector_8
+                0x0000000000001e68                __vector_26
+                0x0000000000001e68                __vector_14
+                0x0000000000001e68                __vector_10
+                0x0000000000001e68                __vector_16
+                0x0000000000001e68                __vector_18
+                0x0000000000001e68                __vector_20
+                0x0000000000001e68                __vector_42
+
+.rodata         0x000000000080052e      0x19f load address 0x0000000000001e6c
+ .rodata        0x000000000080052e      0x19f CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/main.c.o
+
+.rodata         0x00000000008006cd       0x5c load address 0x000000000000200b
+ .rodata        0x00000000008006cd       0x5c CMakeFiles/radio_wheel_counter_default_compile.dir/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/uart.c.o

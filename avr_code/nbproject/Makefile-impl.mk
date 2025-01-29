@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=radio_wheel_counter.X
+PROJECTNAME=avr_code
 
 # Active Configuration
 DEFAULTCONF=default

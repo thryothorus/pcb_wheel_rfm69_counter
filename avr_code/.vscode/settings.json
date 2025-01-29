@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "cstdint": "cpp"
-    }
+        "cstdint": "cpp",
+        "adc.h": "c",
+        "*.inc": "c",
+        "st25dv.h": "c",
+        "*.ipp": "c",
+        "chrono": "c",
+        "functional": "c",
+        "__locale": "c"
+    },
+    "cmake.sourceDirectory": "/home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code/cmake/radio_wheel_counter/default"
 }

@@ -25,7 +25,7 @@ extern "C" {
 #endif
 
     void init_spi();
-        
+        void rfm69_reset_state(bool state) ;
     void led_1_set_state(bool state);
 
     void led_2_set_state(bool state);

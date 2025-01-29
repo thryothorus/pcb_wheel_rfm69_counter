@@ -1,0 +1,143 @@
+{
+    "importedFrom": "file:///home/thebears/Seafile/Designs/Hardware/wheel_rfm69_counter/avr_code",
+    "version": "1.3",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "conf1",
+            "targetDevice": "ATmega328PB",
+            "imageType": "application",
+            "imagePath": "./out/radio_wheel_counter/default.elf",
+            "platformTool": "default-tool-base",
+            "packs": [
+                {
+                    "name": "ATmega_DFP",
+                    "vendor": "Microchip",
+                    "version": "3.2.269"
+                }
+            ],
+            "fileSet": "MPLAB X Virtual Filesystem",
+            "toolchain": "default-XC8"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {
+                "AutoSelectMemRanges": "auto",
+                "communication.activationmode": "nohv",
+                "communication.interface": "isp",
+                "communication.speed": "0.25",
+                "debugoptions.debug-startup": "Use system settings",
+                "debugoptions.reset-behaviour": "Use system settings",
+                "debugoptions.useswbreakpoints": false,
+                "event.recorder.debugger.behavior": "Running",
+                "event.recorder.enabled": false,
+                "event.recorder.scvd.files": "",
+                "firmware.path": "Press to browse for a specific firmware version",
+                "firmware.toolpack": "Press to select which tool pack to use",
+                "firmware.update.action": "firmware.update.use.latest",
+                "freeze.timers": false,
+                "lastid": "",
+                "memories.aux": false,
+                "memories.bootflash": true,
+                "memories.configurationmemory": true,
+                "memories.configurationmemory2": true,
+                "memories.dataflash": true,
+                "memories.eeprom": true,
+                "memories.exclude.configurationmemory": true,
+                "memories.flashdata": true,
+                "memories.id": true,
+                "memories.instruction.ram.ranges": "${memories.instruction.ram.ranges}",
+                "memories.programmemory": true,
+                "memories.programmemory.ranges": "0-3fff",
+                "poweroptions.powerenable": false,
+                "programoptions.eraseb4program": true,
+                "programoptions.preservedataflash": false,
+                "programoptions.preservedataflash.ranges": "0-3ff",
+                "programoptions.preserveeeprom": false,
+                "programoptions.preserveeeprom.ranges": "",
+                "programoptions.preserveprogram.ranges": "",
+                "programoptions.preserveprogramrange": false,
+                "programoptions.preserveuserid": false,
+                "programoptions.programuserotp": false,
+                "toolpack.updateoptions": "toolpack.updateoptions.uselatestoolpack",
+                "toolpack.updateoptions.packversion": "Press to select which tool pack to use",
+                "voltagevalue": ""
+            }
+        },
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@2.32",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "Header Files",
+            "files": [
+                "uart.h",
+                "states.h",
+                "rfm69.h",
+                "defines.h",
+                "i2c.h",
+                "m95128.h",
+                "spi.h",
+                "st25dv.h",
+                "interrupts.h",
+                "max31329.h",
+                "power_mgmt.h",
+                "adc.h"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "Important Files",
+            "files": [
+                "Makefile"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "Linker Files"
+        },
+        {
+            "name": "Source Files",
+            "files": [
+                "uart.c",
+                "rfm69.c",
+                "states.c",
+                "i2c.c",
+                "m95128.c",
+                "spi.c",
+                "st25dv.c",
+                "interrupts.c",
+                "max31329.c",
+                "power_mgmt.c",
+                "adc.c"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "MPLAB X Virtual Filesystem",
+            "files": [
+                "main.c",
+                {
+                    "fileSet": "Header Files"
+                },
+                {
+                    "fileSet": "Important Files"
+                },
+                {
+                    "fileSet": "Linker Files"
+                },
+                {
+                    "fileSet": "Source Files"
+                }
+            ],
+            "encoding": "ISO-8859-1"
+        }
+    ]
+}
